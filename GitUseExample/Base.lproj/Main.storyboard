@@ -25,9 +25,17 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MGr-Jn-I6N"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My New Label in a new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJf-kN-LEp">
+                                <rect key="frame" x="70" y="163" width="234" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="IGe-UZ-lnA" firstAttribute="top" secondItem="OJf-kN-LEp" secondAttribute="bottom" constant="144.5" id="82u-yp-W5M"/>
+                            <constraint firstItem="OJf-kN-LEp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a7s-na-M3Y"/>
                             <constraint firstItem="IGe-UZ-lnA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uaW-3c-llf"/>
                             <constraint firstItem="IGe-UZ-lnA" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="yYP-Qx-TDy"/>
                         </constraints>
